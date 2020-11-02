@@ -141,8 +141,8 @@ a.link-service {
 
 /*------footer section-------*/
 #footer {
-  background-image: url("/Theme/images/patroontje.PNG");
-  background-color: #57462b;
+  background-image: url("/Theme/images/patroontje_Fotor.png");
+  background-color: rgba(28, 21, 14, 0.7);
   background-origin: content-box;
   height: 200px;
   width: 100%;
@@ -150,8 +150,18 @@ a.link-service {
   background-size: cover;
   padding: 20px;
 }
-#footer a {
+#footer{
   color: white;
+}
+
+#footer a{
+  color: white;
+}
+#footer h5{
+  
+}
+#footer ul li{
+  list-style-type: none;
 }
 
 #footer .fa {
