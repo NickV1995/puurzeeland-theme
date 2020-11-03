@@ -1,55 +1,14 @@
-<footer class="page-footer font-small indigo">
+<footer class="page-footer">
   <div class="container text-center">
     <div class="row">
       <div class="col-md-4">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Very long link 1</a>
-          </li>
-          <li>
-            <a href="#!">Very long link 2</a>
-          </li>
-          <li>
-            <a href="#!">Very long link 3</a>
-          </li>
-          <li>
-            <a href="#!">Very long link 4</a>
-          </li>
-        </ul>
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer 1') ) : endif; ?>
       </div>
       <div class="col-md-4"><h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer 2') ) :  endif; ?>
       </div>
       <div class="col-md-4">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
+      <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer 3') ) :  endif; ?>
       </div>
     </div>
   </div>

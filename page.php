@@ -1,18 +1,8 @@
-<?php get_header() ?> 
+<?php get_header(); ?> 
     <section id="banner">
       <div class="row">
         <div class="banner">
         <img src="<?php header_image(); ?>" alt="Banner" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="quote">"Lokale catering, feestelijke gerechten met<br>verse ingrediënten"</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12" id="button">
-          <button type="button" class="btn"><i class="fa fa-phone" aria-hidden="true"></i>  06-12345678</button>
         </div>
       </div>
     </section>
@@ -72,4 +62,4 @@
         </div>
       </div>  
     </section>
-<?php get_footer() ?>
+<?php get_footer(); ?>

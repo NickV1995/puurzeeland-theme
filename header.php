@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://localhost/testthemapuurz/wp-content/themes/puurzeeland-theme/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://puurzeeland.scalda-nvinke.ontwikkelonline.nl/wp-content/themes/puurzeeland/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen"/>
     <link rel="stylesheet" href="style.css">
@@ -18,7 +18,7 @@
     
     <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="http://localhost/testthemapuurz">
                 <img src="<?php echo get_bloginfo('template_url');?>/images/MainLogo.PNG" alt="Logo" >  
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">

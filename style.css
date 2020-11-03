@@ -62,6 +62,7 @@ section#banner img {
 
 section#banner h1 {
   text-align: center;
+  padding-top: 50px;
 }
 
 h1.quote {
@@ -75,6 +76,7 @@ h1.quote {
 
 div#button {
   text-align: center;
+  padding-bottom: 70px;
 }
 
 .fa {
