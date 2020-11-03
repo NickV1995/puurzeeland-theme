@@ -13,6 +13,10 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 /*---------navbar-----------*/
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -22,22 +26,25 @@ p {
   width: 110px;
   padding: 10px;
 }
-.nav-item {
+.menu-menu-1-container ul li {
+  list-style-type: none;
+}
+.menu-menu-1-container ul li a {
   color: black;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 15pt;
-}
-a.nav-item {
   margin-left: 10px;
+  padding: 5px;
 }
-.navbar-nav a:hover {
+.menu-menu-1-container ul li a:hover {
   color: white;
   background-color: #97bd0d;
   border-radius: 12px;
+  text-decoration: none;
 }
-.navbar-nav {
-  float: right;
+.navbar-nav ul li {
+  float: left;
   text-align: left;
 }
 .navbar-toggler-icon {
@@ -141,9 +148,10 @@ a.link-service {
 
 /*------footer section-------*/
 footer {
-  background-image: url("/Theme/images/patroontje.jpg");
+  background-image: url("http://localhost/testthemapuurz/wp-content/themes/puurzeeland-theme/images/patroontje.jpg");
   background-size: contain;
   padding: 20px;
+  width: 101%;
 }
 footer h5 {
   color: white;
