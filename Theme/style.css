@@ -140,31 +140,21 @@ a.link-service {
 /*------end services-2 section-------*/
 
 /*------footer section-------*/
-#footer {
-  background-image: url("/Theme/images/patroontje_Fotor.png");
-  background-color: rgba(28, 21, 14, 0.7);
-  background-origin: content-box;
-  height: 200px;
-  width: 100%;
-  background-blend-mode: soft-light;
-  background-size: cover;
+footer {
+  background-image: url("/Theme/images/patroontje.jpg");
+  background-size: contain;
   padding: 20px;
 }
-#footer{
+footer h5 {
   color: white;
 }
-
-#footer a{
+.page-footer a {
   color: white;
 }
-#footer h5{
-  
+.footer-copyright {
+  color: white;
 }
-#footer ul li{
-  list-style-type: none;
-}
-
-#footer .fa {
+.page-footer h5 .page-footer .fa {
   font-size: 20px;
   padding-right: 10px;
 }
