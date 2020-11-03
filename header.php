@@ -26,13 +26,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarToggle">
                 <div class="navbar-nav ml-auto">
-                  <!-- <a class="nav-item nav-link" href="#">Home</a>
-                  <a class="nav-item nav-link" href="#">Impressies</a>
-                  <a class="nav-item nav-link" href="#">Over mij</a>
-                  <a class="nav-item nav-link" href="#">Recensies</a>
-                  <a class="nav-item nav-link" href="#">Extra's</a>
-                  <a class="nav-item nav-link" href="#">Contact</a> -->
-                  <?php wp_nav_menu('sort_column=menu_order'); ?>
+                  <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'primary-menu')); ?>
                 </div>
             </div>
         </div>

@@ -26,10 +26,10 @@ html {
   width: 110px;
   padding: 10px;
 }
-.menu-menu-1-container ul li {
+nav.navbar ul li {
   list-style-type: none;
 }
-.menu-menu-1-container ul li a {
+nav.navbar ul li a {
   color: black;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -37,7 +37,7 @@ html {
   margin-left: 10px;
   padding: 5px;
 }
-.menu-menu-1-container ul li a:hover {
+nav.navbar ul li a:hover {
   color: white;
   background-color: #97bd0d;
   border-radius: 12px;
