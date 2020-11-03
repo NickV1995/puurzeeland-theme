@@ -4,7 +4,6 @@
       <div class="col-md-4">
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer 1') ) : endif; ?>
       </div>
-      <div class="col-md-4"><h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer 2') ) :  endif; ?>
       </div>
       <div class="col-md-4">
