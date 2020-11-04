@@ -2,13 +2,13 @@
   <div class="container-fluid align-items-center">
     <div class="row">
       <div class="col-md-4">
-        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer 1') ) : endif; ?>
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-1') ) : endif; ?>
       </div>
       <div class="col-md-4">
-        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer 2') ) :  endif; ?>
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-2') ) :  endif; ?>
       </div>
       <div class="col-md-4">
-        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer 3') ) :  endif; ?>
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-3') ) :  endif; ?>
       </div>
     </div>
   </div>

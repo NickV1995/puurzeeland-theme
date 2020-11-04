@@ -1,20 +1,7 @@
 <?php /* Template Name: Impressies */ ?>
 <?php get_header(); ?> 
 
-<section id="">
-    <div class="container-fluid">
-    <?php query_posts('&cat=6'); ?>
-    <?php if(have_posts()) : ?>
-    <?php while(have_posts()) : the_post(); ?>
-        <?php the_content(); ?>
-      </div>
-      <?php endwhile;
-      else:
-      echo 'Niets geplaatst';
-      endif;
-      wp_reset_query();?>
-  </div>
-</section>
+<?php echo do_shortcode('[supsystic-gallery id=1]') ?>
 
 <section id="services">
     <div class="container-fluid">

@@ -10,8 +10,8 @@ add_theme_support( 'post-thumbnails' );
 
 if ( function_exists('register_sidebar') ){
 
-   register_sidebar(array ( 	'name' => 'footer 1' ));
-   register_sidebar(array ( 	'name' => 'footer 2' ));
-   register_sidebar(array ( 	'name' => 'footer 3' ));
-   register_sidebar(array ( 	'name' => 'home-galerij' ));
+   register_sidebar(array ( 	'name' => 'footer-1' ));
+   register_sidebar(array ( 	'name' => 'footer-2' ));
+   register_sidebar(array ( 	'name' => 'footer-3' ));
+   register_sidebar(array ( 	'name' => 'impressie-galerij' ));
 }
