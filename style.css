@@ -15,6 +15,11 @@ p {
 
 html {
   overflow-x: hidden;
+  width: 101%;
+}
+
+ul *{
+  list-style-type: none;
 }
 
 /*---------navbar-----------*/
@@ -57,7 +62,7 @@ nav.navbar ul li a:hover {
 
 /*-------banner--------*/
 section#banner img {
-  width: 100%;
+  width: 120%;
 }
 
 section#banner h1 {
@@ -71,7 +76,7 @@ h1.quote {
   margin-bottom: 50px;
   color: darkslategray;
   opacity: 0.7;
-  font-size: 40pt;
+  font-size: 38pt;
 }
 
 div#button {
@@ -79,9 +84,9 @@ div#button {
   padding-bottom: 70px;
 }
 
-.fa {
+/* .fa {
   font-size: 21pt;
-}
+} */
 
 .btn {
   background-color: #97bd0d;
@@ -100,22 +105,25 @@ div#button {
   padding: 50px;
   margin-top: 20px;
 }
-#services h4 {
+#services h2 {
   width: 300px;
   margin: auto;
+  display: block;
 }
 #services img {
-  width: 300px;
+  width: 400px;
+  height: 400px;
   padding-bottom: 10px;
   margin: auto;
   display: block;
 }
 #services p {
   width: 300px;
+  height: 100px;
   margin: auto;
   display: block;
 }
-a.link-service {
+#services p a {
   text-decoration: underline;
   color: #97bd0d;
   font-size: 15pt;
@@ -125,33 +133,73 @@ a.link-service {
 }
 /*------end services section-------*/
 
-/*------services-2 section-------*/
+/*------kenmerken section-------*/
 
-#kenmerken {
+#services-2 {
   padding: 50px;
   margin-top: 20px;
 }
-#kenmerken h4 {
+#services-2 h2 {
   width: 300px;
   margin: auto;
+  display: block;
 }
-#kenmerken img {
+#services-2 img {
   width: 300px;
+  height: 300px;
   padding-bottom: 10px;
   margin: auto;
   display: block;
 }
-#kenmerken p {
+#services-2 p {
   width: 300px;
   margin: auto;
   display: block;
 }
 /*------end services-2 section-------*/
 
+.d-block{
+  
+  margin: auto !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 70px;
+  width: 70px;
+  background-color: #97bd0d;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 41px;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 41px;
+  color: white;
+}
+
+.impressies-p{
+  padding: 30px 0 30px 0;
+  width: 700px;
+}
+
+.impressies-onder{
+  text-align: center;
+}
+
 /*------footer section-------*/
 footer {
   background-image: url("https://puurzeeland.scalda-nvinke.ontwikkelonline.nl/wp-content/uploads/2020/11/patroontje.jpg");
-  background-size: contain;
+  background-size: cover;
+  margin-top: 100px;
   padding: 20px;
   width: 101%;
 }
@@ -167,6 +215,20 @@ footer h5 {
 .page-footer h5 .page-footer .fa {
   font-size: 20px;
   padding-right: 10px;
+}
+/* footer .widgettitle{
+  color: white !important;
+} */
+.widget{
+  list-style-type: none;
+  color: white;
+  margin: auto;
+  display: table;
+}
+
+.widget ul{
+  padding: 0;
+  /* text-align: left; */
 }
 
 /*------end footer section-------*/
