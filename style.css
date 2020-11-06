@@ -9,17 +9,35 @@ h4 {
   font-weight: 500;
 }
 
-p {
+p,
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+label{
   font-family: "Montserrat", sans-serif;
 }
 
 html {
   overflow-x: hidden;
-  width: 101%;
+  width: 100%;
 }
 
 ul *{
   list-style-type: none;
+}
+
+.top-buffer{
+	margin-top:20px;
+}
+
+.btn{
+	background-color: #97bd0d;
+    color: white;
+    font-size: 12pt !important;
+    border-radius: 17px;
+    padding: 15px;
+    font-family: "Montserrat", sans-serif;
 }
 
 /*---------navbar-----------*/
@@ -62,7 +80,7 @@ nav.navbar ul li a:hover {
 
 /*-------banner--------*/
 section#banner img {
-  width: 120%;
+  width: 100%;
 }
 
 section#banner h1 {
@@ -96,6 +114,15 @@ div#button {
   padding: 15px;
   font-family: "Montserrat", sans-serif;
 }
+
+a.tellink{
+	color:white;
+}
+
+a.tellink a:hover{
+	color:white;
+	text-decoration: none;
+}
 /*------end banner-------*/
 
 /*------services section-------*/
@@ -104,6 +131,12 @@ div#button {
   background-color: #f5faf6;
   padding: 50px;
   margin-top: 20px;
+}
+#services h1{
+	width: 400px;
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
 }
 #services h2 {
   width: 300px;
@@ -133,7 +166,7 @@ div#button {
 }
 /*------end services section-------*/
 
-/*------kenmerken section-------*/
+/*------services-2 section-------*/
 
 #services-2 {
   padding: 50px;
@@ -157,6 +190,11 @@ div#button {
   display: block;
 }
 /*------end services-2 section-------*/
+
+#vegetarisch{
+	padding-top: 20px;
+	margin:auto;
+}
 
 .d-block{
   
@@ -201,7 +239,7 @@ footer {
   background-size: cover;
   margin-top: 100px;
   padding: 20px;
-  width: 101%;
+  width: 100%;
 }
 footer h5 {
   color: white;
@@ -231,3 +269,64 @@ footer h5 {
 }
 
 /*------end footer section-------*/
+
+/*------Media Queries foto's------*/
+
+@media screen and (max-width: 1025px) {
+  #services img {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 10px;
+    margin: auto;
+    display: block;
+}
+section#banner img {
+  width: 100%;
+}
+html {
+  overflow-x: hidden;
+}
+}
+
+@media screen and (max-width: 769px) {
+  #services img {
+    width: 350px;
+    height: 350px;
+    padding-bottom: 10px;
+    margin: auto;
+    display: block;
+}
+section#banner img {
+  width: 100%;
+}
+html {
+  overflow-x: hidden;
+}
+.navbar-nav ul li {
+  float: right;
+  text-align: left;
+  clear:both
+}
+}
+
+@media screen and (max-width: 426px) {
+  #services img {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 10px;
+    margin: auto;
+    display: block;
+}
+section#banner img {
+  width: 100%;
+}
+	
+html {
+  overflow-x: hidden;
+}
+.navbar-nav ul li {
+  float: right;
+  text-align: left;
+  clear:both
+}
+}

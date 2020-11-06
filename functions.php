@@ -8,10 +8,18 @@ add_theme_support( 'custom-logo' );
 
 add_theme_support( 'post-thumbnails' ); 
 
-if ( function_exists('register_sidebar') ){
-
-   register_sidebar(array ( 	'name' => 'footer-1' ));
-   register_sidebar(array ( 	'name' => 'footer-2' ));
-   register_sidebar(array ( 	'name' => 'footer-3' ));
-   register_sidebar(array ( 	'name' => 'impressie-galerij' ));
+function widget_registration($name, $id, $description){
+    register_sidebar( array(
+        'name' => $name,
+        'id' => $id,
+        'description' => $description
+    ));
 }
+ 
+function multiple_widget_init(){
+    widget_registration('Footer widget 1', 'footer-sidebar-1', 'left');
+    widget_registration('Footer widget 2', 'footer-sidebar-2', 'center');
+    widget_registration('Footer widget 3', 'footer-sidebar-3', 'right');
+}
+ 
+add_action('widgets_init', 'multiple_widget_init');
