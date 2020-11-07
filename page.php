@@ -1,5 +1,13 @@
 <?php get_header(); ?> 
 
+<section id="banner">
+      <div class="row">
+        <div class="banner">
+        <img src="<?php the_post_thumbnail(); ?>" alt="Banner" />
+        </div>
+      </div>
+    </section>
+
 <section>
   <div class="container-fluid">
   <!-- Laadt de berichten in -->

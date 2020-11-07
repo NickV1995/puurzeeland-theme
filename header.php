@@ -35,11 +35,3 @@
             </div>
 		</div>
     </nav>
-    
-    <section id="banner">
-      <div class="row">
-        <div class="banner">
-        <img src="<?php header_image(); ?>" alt="Banner" />
-        </div>
-      </div>
-    </section>
